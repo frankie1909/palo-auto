@@ -1,0 +1,11 @@
+configure
+set mgt-config users admin password
+<pw>
+<re-enter password>
+
+set deviceconfig system type dhcp-client ip-type ipv4
+commit
+
+#show management ip address
+show interface management
+
